@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>THE BLACK BEAR — Evolving Explorer (Demo)</title>
+  <meta name="description" content="Original demo template inspired by modern streetwear brands. No images included." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Top Announcement Bar -->
+  <div class="bar">
+    <p>Free shipping all over India in 24h</p>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <a class="logo" href="#">
+        <img src="images/banner.svg" alt="Bear Logo" class="logo-img" />
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+      </button>
+      <ul id="navMenu" class="nav__menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#lookbook">Lookbook</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+
+    <div class="actions">
+      <a href="search.html" class="icon-btn" aria-label="Search">🔎</a>
+      <a href="login.html" class="icon-btn" aria-label="Account">👤</a>
+      <a href="cart.html" class="icon-btn" aria-label="Cart">
+  🛒<span class="badge" id="cartCount">0</span>
+</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero__content">
+      <h1 class="hero__title">BLACK BEAR EXPLORER</h1>
+      <p class="hero__subtitle">Limited drops. Technical silhouettes. Built for the city and beyond.</p>
+      <div class="hero__cta">
+        <a href="#shop" class="btn btn--primary">Shop New Arrivals</a>
+        <a href="#collections" class="btn btn--ghost">View Collections</a>
+      </div>
+    </div>
+    <!-- Optional: gradient backdrop only, no images -->
+    <div class="hero__bg" aria-hidden="true"></div>
+  </section>
+
+  <!-- Featured / New Arrivals -->
+  <section class="section" id="shop">
+    <div class="section__head">
+      <h2 class="section__title">New Arrivals</h2>
+      <a class="section__link" href="#">View all</a>
+    </div>
+
+    <div class="grid products">
+      <!-- Card -->
+      <article class="card">
+       <div class="card__media">
+    <img src="images/IMG_7363.JPG" alt="Apex Tech Tee" />
+  </div>
+  <div class="card__body">
+    <h3 class="card__title">Apex Tech Tee</h3>
+    <p class="card__price">₹999</p>
+    <button class="btn btn--block add-to-cart" data-product='{"id":"apex-tee","name":"Apex Tech Tee","price":999}'>Add to Cart</button>
+  </div>
+      </article>
+
+      <article class="card">
+       <div class="card__media">
+    <img src="images/IMG_7366.JPG" alt="Apex Tech Tee" />
+  </div>
+  <div class="card__body">
+    <h3 class="card__title">Apex Tech Tee</h3>
+    <p class="card__price">₹1199</p>
+    <button class="btn btn--block add-to-cart" data-product='{"id":"apex-tee","name":"Apex Tech Tee","price":999}'>Add to Cart</button>
+  </div>
+      </article>
+
+      <article class="card">
+       <div class="card__media">
+    <img src="images/IMG_7167.JPEG" alt="Apex Tech Tee" />
+  </div>
+  <div class="card__body">
+    <h3 class="card__title">Apex Tech Tee</h3>
+    <p class="card__price">₹999</p>
+    <button class="btn btn--block add-to-cart" data-product='{"id":"apex-tee","name":"Apex Tech Tee","price":999}'>Add to Cart</button>
+  </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+    <img src="images/IMG_7509.JPG" alt="Apex Tech Tee" />
+  </div>
+  <div class="card__body">
+    <h3 class="card__title">Apex Tech Tee</h3>
+    <p class="card__price">₹999</p>
+    <button class="btn btn--block add-to-cart" data-product='{"id":"apex-tee","name":"Apex Tech Tee","price":999}'>Add to Cart</button>
+  </div>
+  </section>
+
+  <!-- Collections -->
+  <section class="section" id="collections">
+    <div class="section__head">
+      <h2 class="section__title">Collections</h2>
+    </div>
+
+    <div class="grid banners">
+      <a href="#" class="banner banner--tall" aria-label="Monochrome Collection">
+        <div class="banner__bg banner__bg--mono" aria-hidden="true"></div>
+        <div class="banner__body">
+          <h3>Monochrome</h3>
+          <p>Minimal palettes. Maximum impact.</p>
+        </div>
+      </a>
+
+      <a href="#" class="banner" aria-label="Urban Utility Collection">
+        <div class="banner__bg banner__bg--utility" aria-hidden="true"></div>
+        <div class="banner__body">
+          <h3>Urban Utility</h3>
+          <p>Hardware, pockets, purpose.</p>
+        </div>
+      </a>
+
+      <a href="#" class="banner" aria-label="Nocturne Collection">
+        <div class="banner__bg banner__bg--nocturne" aria-hidden="true"></div>
+        <div class="banner__body">
+          <h3>Nocturne</h3>
+          <p>Night-ready reflective details.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Lookbook (no images; gradient blocks as placeholders) -->
+  <section class="section" id="lookbook">
+    <div class="section__head">
+      <h2 class="section__title">Lookbook</h2>
+      <p class="muted">A visual journal of the season—image placeholders only in this demo.</p>
+    </div>
+
+    <div class="grid lookbook">
+      <div class="frame" aria-label="Lookbook frame placeholder"></div>
+      <div class="frame" aria-label="Lookbook frame placeholder"></div>
+      <div class="frame" aria-label="Lookbook frame placeholder"></div>
+      <div class="frame" aria-label="Lookbook frame placeholder"></div>
+      <div class="frame" aria-label="Lookbook frame placeholder"></div>
+      <div class="frame" aria-label="Lookbook frame placeholder"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section section--split" id="about">
+    <div class="split__media" aria-hidden="true"></div>
+    <div class="split__body">
+      <h2>About the Label</h2>
+      <p>We build everyday uniforms for exploration—designed with intent, cut with precision, and produced in small runs to reduce waste.</p>
+      <ul class="bullets">
+        <li>Limited drops</li>
+        <li>Responsible materials</li>
+        <li>Durable construction</li>
+      </ul>
+      <a href="#shop" class="btn btn--primary">Shop the Drop</a>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="section newsletter">
+    <div class="newsletter__wrap">
+      <h3>Join the List</h3>
+      <p class="muted">Early access to drops, events, and restocks.</p>
+      <form class="form" id="newsletterForm" novalidate>
+        <label class="sr-only" for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required />
+        <button class="btn btn--primary" type="submit">Subscribe</button>
+        <p class="form__note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div>
+        <h4>THE BLACK BEAR</h4>
+        <p class="muted">BLACK BEAR Explorer — Demo template.</p>
+      </div>
+      <div>
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="#">Tops</a></li>
+          <li><a href="#">Bottoms</a></li>
+          <li><a href="#">Outerwear</a></li>
+          <li><a href="#">Accessories</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Help</h5>
+        <ul>
+          <li><a href="#">Shipping & Returns</a></li>
+          <li><a href="#">Size Guide</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Follow</h5>
+        <ul class="social">
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="Twitter / X">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <small>© <span id="year"></span> BLACK BEAR (Subhadeep). All rights reserved.</small>
+      <nav class="legal">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Drawers / Overlays -->
+  <aside class="drawer" id="cartDrawer" aria-hidden="true" aria-labelledby="cartTitle" role="dialog">
+    <div class="drawer__panel">
+      <header class="drawer__head">
+        <h3 id="cartTitle">Your Cart</h3>
+        <button class="icon-btn close" data-close="#cartDrawer" aria-label="Close cart">✕</button>
+      </header>
+      <div class="drawer__body">
+        <ul class="cart" id="cartItems"></ul>
+        <div class="cart__summary">
+          <span>Subtotal</span>
+          <strong id="cartSubtotal">$0</strong>
+        </div>
+      </div>
+      <footer class="drawer__foot">
+        <button class="btn btn--primary btn--block">Checkout</button>
+      </footer>
+    </div>
+    <button class="drawer__scrim" data-close="#cartDrawer" aria-label="Close"></button>
+  </aside>
+
+  <aside class="drawer" id="searchDrawer" aria-hidden="true" aria-labelledby="searchTitle" role="dialog">
+    <div class="drawer__panel">
+      <header class="drawer__head">
+        <h3 id="searchTitle">Search</h3>
+        <button class="icon-btn close" data-close="#searchDrawer" aria-label="Close search">✕</button>
+      </header>
+      <div class="drawer__body">
+        <input class="search__input" type="search" placeholder="Search products..." aria-label="Search products" />
+        <p class="muted">Type to search (demo only)</p>
+      </div>
+    </div>
+    <button class="drawer__scrim" data-close="#searchDrawer" aria-label="Close"></button>
+  </aside>
+
+  <script src="theme/app.js" defer></script>
+</body>
+</html>
